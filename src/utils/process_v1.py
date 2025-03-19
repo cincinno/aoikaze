@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "sk-jKbsettF6PuFobHPzZ4uI7mR8i7n5VWs3RwJwoVTSSndeU6T"
+openai.api_key = ""
 #openai.base_url = url
 openai.base_url = 'https://yunwu.ai/v1/'
 def query_gpt4(his,temp=None):

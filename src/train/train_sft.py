@@ -8,7 +8,7 @@ import torch
 
 # ================== 配置区 ==================
 model_path = "/users/um202270118/AI/deepseek/deepseek/DeepSeek-R1-Distill-Qwen-14B"
-dataset_path = './mixed_dataset.jsonl'
+dataset_path = './mixed_dataset_akali.jsonl'
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # ================== 模型加载 ==================
