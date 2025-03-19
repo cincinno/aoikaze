@@ -89,6 +89,8 @@ def return_system(idx):
         "content": content
     }
     return system_prompt_template,dialogtext
+
+
 if __name__ == "__main__":
     
     dialoglist=[]
